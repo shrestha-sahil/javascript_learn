@@ -28,9 +28,41 @@ Array, Objets, browser web event handling
 */
 
 //stack (primitive) , Heap (Non-primitive)
-let firstName = "sahil"
-let lastName = "Shrestha"
+let pookieName = "Shupriya"
 
-firstName = " Gurungni"
+let firstName = pookieName
 
-console.log([firstName, lastName]);
+
+firstName = "sahil"
+
+
+console.log(pookieName);
+
+console.log(firstName);
+
+
+console.log([firstName, pookieName]); //multiple function calling
+
+
+let BankAccount = {
+    Branch : "kalopul",
+    BankName : "Siddharta Bank",
+    AccountType : "saving",
+    UserName : "sahil",
+     Email : "sahilshrestha@google.com"
+   
+}
+
+let BankAccount2 = BankAccount
+
+
+BankAccount2.Branch = "Maligaun",
+BankAccount2.BankName = "Nabil Bank",
+BankAccount2.UserName = "Shupriya",
+BankAccount2.Email = "shupriyasahil@gmail.com"
+
+console.log(BankAccount.Email);
+console.log(BankAccount2.Email);
+
+
+
