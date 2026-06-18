@@ -16,5 +16,15 @@ console.log(gameName.length);
 
 console.log(gameName.toUpperCase);
 
+console.log(gameName.lastIndexOf);
+
+
+console.log(gameName.charAt(3));
+console.log(gameName.indexOf('i'));
+
+const newString = gameName.substring(0,5);  //for accessing the string name value
+console.log(newString);     //method calling
+
+
 
 
