@@ -26,3 +26,10 @@ console.log(Math.random());
 console.log(Math.min(4, 3, 2, 1, -1, 0));
 console.log(Math.max(10, 20, 21, 45));
 
+const min = 0
+const max = 44
+
+Math.random()
+
+console.log(Math.floor(Math.random() * ( min-max + 1)) + min);
+ 
