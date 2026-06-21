@@ -16,4 +16,18 @@ console.log(myArr[2]);
 // numbers.unshift(0)
 // numbers.shift()
 console.log(numbers);
+console.log(numbers.includes(3));
+console.log(numbers.indexOf(2));
+
+console.log(numbers.includes(6));
+
+
+const newArr = numbers.join();
+
+console.log(typeof numbers);
+console.log(typeof newArr);
+
+
+
+
 
