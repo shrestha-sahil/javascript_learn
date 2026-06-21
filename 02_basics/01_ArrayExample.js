@@ -1,10 +1,10 @@
-const myArr = ["sahil", "Shrestha"]
-console.log(myArr);
+// const myArr = ["sahil", "Shrestha"]
+// console.log(myArr);
 
 
 const numbers = [1, 2, 3, 4, 5]
-console.log(numbers);
-console.log(myArr[2]);
+// console.log(numbers);
+// console.log(myArr[2]);
 
 //array methods
 // numbers.push(6)
@@ -15,17 +15,25 @@ console.log(myArr[2]);
 
 // numbers.unshift(0)
 // numbers.shift()
-console.log(numbers);
-console.log(numbers.includes(3));
-console.log(numbers.indexOf(2));
+// console.log(numbers);
+// console.log(numbers.includes(3));
+// console.log(numbers.indexOf(2));
 
-console.log(numbers.includes(6));
+// console.log(numbers.includes(6));
 
 
-const newArr = numbers.join();
+// const newArr = numbers.join();
 
-console.log(typeof numbers);
-console.log(typeof newArr);
+// console.log(typeof numbers);
+// console.log(typeof newArr);
+
+//slice , splice 
+console.log("A", numbers);
+
+const myNewArr = numbers.slice(3)
+
+console.log(myNewArr);
+
 
 
 
