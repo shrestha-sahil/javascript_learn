@@ -2,7 +2,7 @@
 // console.log(myArr);
 
 
-const numbers = [1, 2, 3, 4, 5]
+const numbers = [0, 1, 2, 3, 4, 5]
 // console.log(numbers);
 // console.log(myArr[2]);
 
@@ -27,12 +27,26 @@ const numbers = [1, 2, 3, 4, 5]
 // console.log(typeof numbers);
 // console.log(typeof newArr);
 
-//slice , splice 
+//slice 
 console.log("A", numbers);
 
-const myNewArr = numbers.slice(3)
+const myNewArr1 = numbers.slice(2, 4)
 
-console.log(myNewArr);
+// console.log(myNewArr1);
+
+
+//splice example
+
+const myNewArr2 = numbers.splice(1, 3)
+
+console.log("c", numbers);
+console.log(myNewArr2);
+
+const time = Date.now();
+console.log(time);
+
+
+console.log(Date.now());
 
 
 
