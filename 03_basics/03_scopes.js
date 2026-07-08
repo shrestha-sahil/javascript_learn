@@ -46,3 +46,16 @@ if (true){
 }
 
 // console.log("outside if block", username);
+
+
+const sahil = {
+    username : "sahil shrestha",
+    age : 22,
+
+    myFunction : function(){
+        console.log(`hehe this is ${this.username} and my age is : ${this.age}`)
+    }
+};
+
+
+    sahil.myFunction();
