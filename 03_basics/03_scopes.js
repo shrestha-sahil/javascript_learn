@@ -37,13 +37,12 @@ one()
 
 if (true){
     const username = "sahil"
- if (username === "sahil"){
-    const website = "youtube"
-    console.log(username + website);
-    
-console.log("outside if block", username);
- }    
- console.log(website);    
+    if (username === "sahil"){
+        const website = "youtube"
+        console.log(username + website);
+        
+        console.log("outside if block", username);
+    }     
 }
 
 // console.log("outside if block", username);
